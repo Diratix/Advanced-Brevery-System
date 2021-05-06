@@ -1,0 +1,16 @@
+{
+  "advancements.pompa_wody_uzyto.title": "Wodny Interes",
+  "itemGroup.tabadvanced_brevery_system": "Advanced Brevery System",
+  "item.advanced_brewery_system.advancedbrewerylogo": "Advanced Brewery Logo",
+  "advancements.sfermentowanynapojwypito.title": "Przedsmak rozkoszy",
+  "item.advanced_brewery_system.kubek": "Kubek",
+  "advancements.pompa_wody_uzyto.descr": "Po raz pierwszy użyłeś pompy wody!",
+  "item.advanced_brewery_system.sfermentowanynapoj": "Sfermentowany napoj",
+  "block.advanced_brewery_system.destylator": "Destylator",
+  "advancements.sfermentowanynapojwypito.descr": "Wypiłeś sfermentowany napój",
+  "item.advanced_brewery_system.drozdze": "Drożdże",
+  "item.advanced_brewery_system.kubek_z_woda": "Kubek z wodą",
+  "advancements.drozdzezdjedzono.descr": "Zjedzono surowe drożdże",
+  "block.advanced_brewery_system.pompawodyblock": "Pompa wody",
+  "advancements.drozdzezdjedzono.title": "Niestrawność"
+}

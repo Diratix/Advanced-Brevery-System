@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "kubek",
+    "customModelName": "Normal",
+    "name": "Sfermentowany napoj",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Sfermentowany napój mo¿e pos³u¿yæ jako baza pod ró¿ne trunki"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AdvancedBreverySystem"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SfermentowanynapojFoodEaten"
+    }
+  }
+}

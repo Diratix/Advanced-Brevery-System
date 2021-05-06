@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "advanced_brewery_system:drozdze"
+    },
+    "title": {
+      "translate": "advancements.drozdzezdjedzono.title"
+    },
+    "description": {
+      "translate": "advancements.drozdzezdjedzono.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drozdzezdjedzono": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "advanced_brewery_system:drozdze"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

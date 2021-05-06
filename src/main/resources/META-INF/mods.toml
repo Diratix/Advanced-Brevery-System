@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="advanced_brewery_system"
+version="1.0.0"
+displayName="Advanced Brewery System"
+credits="Credits to me ::)"
+displayURL="https://diratix.ct8.pl"
+logoFile="logo.png"
+authors="Diratix#0756"
+description='''
+This mod adding Advanced Brevering System, for more info please visit home page.
+'''
+
+[[dependencies.advanced_brewery_system]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

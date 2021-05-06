@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "advanced_brewery_system:blocks/pompa_wody_bottom",
+    "up": "advanced_brewery_system:blocks/pompa_wody_bottom",
+    "north": "advanced_brewery_system:blocks/pompa_wody_front",
+    "east": "advanced_brewery_system:blocks/pompa_wody_left",
+    "south": "advanced_brewery_system:blocks/pompa_wody_left",
+    "west": "advanced_brewery_system:blocks/pompa_wody_left",
+    "particle": "advanced_brewery_system:blocks/pompa_wody_bottom"
+  }
+}

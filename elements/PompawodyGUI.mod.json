@@ -1,0 +1,221 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Pompa Wody",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Pompa Wody",
+          "x": 132,
+          "y": 43
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.POTIONITEM"
+          },
+          "color": {
+            "value": -11513776,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 90
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Kubek"
+          },
+          "color": {
+            "value": -11513776,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 141,
+          "y": 59
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -11513776,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 186,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_down.png",
+          "use1Xscale": false,
+          "name": "arrow_down.png",
+          "x": 160,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_up.png",
+          "use1Xscale": false,
+          "name": "arrow_up.png",
+          "x": 160,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wt³ocz",
+          "onClick": {
+            "name": "Pompawodyprocedure"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Wt³ocz",
+          "x": 172,
+          "y": 94
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pipe.png",
+          "use1Xscale": false,
+          "name": "pipe.png",
+          "x": 170,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "something.png",
+          "use1Xscale": false,
+          "name": "something.png",
+          "x": 159,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "something.png",
+          "use1Xscale": false,
+          "name": "something.png",
+          "x": 159,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Informacja:",
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "name": "Informacja:",
+          "x": 229,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Górny slot-",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Górny slot-",
+          "x": 233,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Pusty kubek.",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Pusty kubek.",
+          "x": 237,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dolny slot-",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Dolny slot-",
+          "x": 233,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Butelka z",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Butelka z",
+          "x": 237,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "wod¹",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "wod¹",
+          "x": 238,
+          "y": 93
+        }
+      }
+    ]
+  }
+}

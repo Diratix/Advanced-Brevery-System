@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "advanced_brewery_system:blocks/destylator",
+    "particle": "advanced_brewery_system:blocks/destylator"
+  }
+}

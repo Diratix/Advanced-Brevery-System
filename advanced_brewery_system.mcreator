@@ -1,0 +1,354 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AdvancedBreverySystem",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_brevery_system"
+    },
+    {
+      "name": "Advancedbrewerylogo",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancedbrewerylogo"
+    },
+    {
+      "name": "Kubek",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek"
+    },
+    {
+      "name": "Kubekrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubekrecipe"
+    },
+    {
+      "name": "DrozdzeFoodEaten",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drozdze_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drozdze",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drozdze"
+    },
+    {
+      "name": "KubekZWoda",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubek_z_woda"
+    },
+    {
+      "name": "SfermentowanynapojFoodEaten",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfermentowanynapoj_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sfermentowanynapoj",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfermentowanynapoj"
+    },
+    {
+      "name": "Sfermentowanynapojrecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfermentowanynapojrecipe"
+    },
+    {
+      "name": "Kubekzwodarecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubekzwodarecipe"
+    },
+    {
+      "name": "PompawodyGUI",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompawody_gui"
+    },
+    {
+      "name": "PompawodyblockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompawodyblock_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pompawodyblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompawodyblock"
+    },
+    {
+      "name": "PompaWodyrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompa_wodyrecipe"
+    },
+    {
+      "name": "Pompawodyprocedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompawodyprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drozdzezdjedzono",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drozdzezdjedzono",
+      "path": "~/Achiwmenty"
+    },
+    {
+      "name": "Destylator",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destylator"
+    },
+    {
+      "name": "PompaWodyUzyto",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pompa_wody_uzyto",
+      "path": "~/Achiwmenty"
+    },
+    {
+      "name": "Sfermentowanynapojwypito",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sfermentowanynapojwypito",
+      "path": "~/Achiwmenty"
+    },
+    {
+      "name": "Destylatorrecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destylatorrecipe"
+    },
+    {
+      "name": "DestylatorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destylator_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DestylatorGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destylator_gui"
+    },
+    {
+      "name": "Destylatorprocedure",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "destylatorprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.pompa_wody_uzyto.title": "Wodny Interes",
+      "itemGroup.tabadvanced_brevery_system": "Advanced Brevery System",
+      "item.advanced_brewery_system.advancedbrewerylogo": "Advanced Brewery Logo",
+      "advancements.sfermentowanynapojwypito.title": "Przedsmak rozkoszy",
+      "item.advanced_brewery_system.kubek": "Kubek",
+      "advancements.pompa_wody_uzyto.descr": "Po raz pierwszy u¿y³eœ pompy wody!",
+      "item.advanced_brewery_system.sfermentowanynapoj": "Sfermentowany napoj",
+      "block.advanced_brewery_system.destylator": "Destylator",
+      "advancements.sfermentowanynapojwypito.descr": "Wypi³eœ sfermentowany napój",
+      "item.advanced_brewery_system.drozdze": "Dro¿d¿e",
+      "item.advanced_brewery_system.kubek_z_woda": "Kubek z wod¹",
+      "advancements.drozdzezdjedzono.descr": "Zjedzono surowe dro¿d¿e",
+      "block.advanced_brewery_system.pompawodyblock": "Pompa wody",
+      "advancements.drozdzezdjedzono.title": "Niestrawnoœæ"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Achiwmenty",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "advanced_brewery_system",
+    "modName": "Advanced Brewery System",
+    "version": "1.0.0",
+    "description": "This mod adding Advanced Brevering System, for more info please visit home page.",
+    "author": "Diratix#0756",
+    "websiteURL": "https://diratix.ct8.pl",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "advannced_brevery_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Credits to me ::)",
+    "modElementsPackage": "pl.diratix.advancedbrewerysystem",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100116710
+}

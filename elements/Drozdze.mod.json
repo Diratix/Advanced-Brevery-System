@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "drozdze_tekstura",
+    "customModelName": "Normal",
+    "name": "Dro¿d¿e",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Dro¿d¿e pozwol¹ Ci zrobiæ sfermentowany napój"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AdvancedBreverySystem"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "DrozdzeFoodEaten"
+    }
+  }
+}

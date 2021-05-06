@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#6"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#6"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#6"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Destylator"
+    },
+    "name": "destylatorrecipe",
+    "namespace": "mod"
+  }
+}

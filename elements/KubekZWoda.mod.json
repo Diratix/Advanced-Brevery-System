@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "kubek",
+    "customModelName": "Normal",
+    "name": "Kubek z wod¹",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Poprostu kubek wype³niony wod¹ ;)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AdvancedBreverySystem"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 0,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}
