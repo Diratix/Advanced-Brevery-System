@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "advanced_brewery_system:blocks/chmiel_texture"
+  }
+}

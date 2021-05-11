@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "kubek",
+    "customModelName": "Normal",
+    "name": "Piwopszeniczne",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Piwo o smaku pszenicy"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "PiwopszeniczneFoodEaten"
+    }
+  }
+}

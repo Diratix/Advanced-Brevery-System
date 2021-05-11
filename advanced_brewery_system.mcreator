@@ -99,24 +99,6 @@
       "registry_name": "sfermentowanynapoj"
     },
     {
-      "name": "Sfermentowanynapojrecipe",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sfermentowanynapojrecipe"
-    },
-    {
-      "name": "Kubekzwodarecipe",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "kubekzwodarecipe"
-    },
-    {
       "name": "PompawodyGUI",
       "type": "gui",
       "sortid": 10,
@@ -299,6 +281,103 @@
           }
         ]
       }
+    },
+    {
+      "name": "Chmiel",
+      "type": "plant",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chmiel"
+    },
+    {
+      "name": "ZytniowkaFoodEaten",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zytniowka_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zytniowka",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zytniowka"
+    },
+    {
+      "name": "PszenicznaWypito",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pszeniczna_wypito",
+      "path": "~/Achiwmenty"
+    },
+    {
+      "name": "PiwoFoodEaten",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piwo_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Piwo",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piwo"
+    },
+    {
+      "name": "PiwopszeniczneFoodEaten",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piwopszeniczne_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Piwopszeniczne",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piwopszeniczne"
     }
   ],
   "variable_elements": [],
@@ -310,14 +389,20 @@
       "item.advanced_brewery_system.advancedbrewerylogo": "Advanced Brewery Logo",
       "advancements.sfermentowanynapojwypito.title": "Przedsmak rozkoszy",
       "item.advanced_brewery_system.kubek": "Kubek",
+      "item.advanced_brewery_system.piwo": "Piwo",
       "advancements.pompa_wody_uzyto.descr": "Po raz pierwszy u¿y³eœ pompy wody!",
       "item.advanced_brewery_system.sfermentowanynapoj": "Sfermentowany napoj",
       "block.advanced_brewery_system.destylator": "Destylator",
       "advancements.sfermentowanynapojwypito.descr": "Wypi³eœ sfermentowany napój",
       "item.advanced_brewery_system.drozdze": "Dro¿d¿e",
+      "advancements.pszeniczna_wypito.descr": "Wypito napój pszeniczny",
+      "item.advanced_brewery_system.piwopszeniczne": "Piwopszeniczne",
       "item.advanced_brewery_system.kubek_z_woda": "Kubek z wod¹",
       "advancements.drozdzezdjedzono.descr": "Zjedzono surowe dro¿d¿e",
+      "advancements.pszeniczna_wypito.title": "Koneser",
+      "block.advanced_brewery_system.chmiel": "Chmiel",
       "block.advanced_brewery_system.pompawodyblock": "Pompa wody",
+      "item.advanced_brewery_system.zytniowka": "Napój pszeniczny",
       "advancements.drozdzezdjedzono.title": "Niestrawnoœæ"
     }
   },

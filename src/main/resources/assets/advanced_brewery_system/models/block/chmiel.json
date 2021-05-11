@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "advanced_brewery_system:blocks/chmiel_texture",
+    "particle": "advanced_brewery_system:blocks/chmiel_texture"
+  }
+}
